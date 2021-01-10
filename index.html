@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
     <script src="typing.js"></script>
 	<title>Practice your typing!</title>
 </head>
@@ -11,9 +12,15 @@
         <h1 id="title"><strong>Typing practice</strong></h1>
     </header>
     <main>
-        <input></input>
-		<button onclick="randomQuote()"> New quote </button>
-		<p id="quote"></p>
+		<p class="header" id="quote"></p>
+		<br>
+		<div class="centered">
+  			<button onclick="randomQuote()"> New quote </button>
+		</div>
+		<br>
+		<div class="centered">
+        	<textarea class="center" rows="4" cols="50"></textarea>
+		</div>
     </main>
 </body>
 

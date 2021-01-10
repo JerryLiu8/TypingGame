@@ -1,0 +1,16 @@
+header {
+  text-align: center;
+  height: 100px;
+}
+
+.header{
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+}
+
+.centered {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
