@@ -3,8 +3,8 @@ header {
   height: 100px;
 }
 
-.header{
-    font-size: 25px;
+.display{
+    font-size: 26px;
     margin: auto;
     text-align: center;
 }
@@ -13,4 +13,24 @@ header {
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+  text-decoration: underline;
+}
+
+.input {
+  width: 50%;
+  height: 8rem;
+  margin: auto;
+  resize: none;
+  padding: .5rem 1rem;
+  font-size: 26px;
+  font-family: "Georgia";
+  border-radius: .5rem;
 }
