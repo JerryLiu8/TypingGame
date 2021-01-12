@@ -1,5 +1,5 @@
 // uses quotable api by lukePeavy: https://github.com/lukePeavey/quotable
-const RANDOM_QUOTE = 'http://api.quotable.io/random'
+const RANDOM_QUOTE = 'https://api.quotable.io/random'
 
 document.getElementById("text").addEventListener('input', () => {
   const arrayQuote = document.getElementById("quote").querySelectorAll('span')
